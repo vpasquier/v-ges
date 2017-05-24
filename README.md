@@ -1,5 +1,7 @@
 # Google Engine Switch (GES)
 
+[![Join the chat at https://gitter.im/v-ges/Lobby](https://badges.gitter.im/v-ges/Lobby.svg)](https://gitter.im/v-ges/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Google engine switch is just a tool to quickly switch between search engines in Chrome browser.
 
 ## WIP: Getting Started with GES
