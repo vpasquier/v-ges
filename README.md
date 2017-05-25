@@ -11,13 +11,26 @@ All the engine switch extensions for Chrome are using a page for handling the en
 
 ## WIP: Getting Started with GES
 
-Please install the following extension on your Chrome browser.
+WIP: - From the Chrome Web Store: install [Google Engine Switch](https://chrome.google.com).
+
+WIP: - From Mozilla's Add-ons page: install [Google Engine Switch](https://addons.mozilla.org/).
+
+## Build
+
+From GitHub:
+
+```
+$ git clone git@github.com:vpasquier/v-ges.git
+$ cd v-ges
+$ npm install && bower install
+$ gulp build:<browser>
+```
 
 ## Reporting issues
 
-You can follow the developments and report issues here on github in this repository or on https://waffle.io/vpasquier/v-ges.
+You can follow the developments and report issues here on github in this repository or on [https://waffle.io/vpasquier/v-ges](https://waffle.io/vpasquier/v-ges).
 
 ## GES License
 
-Nuxeo uses the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
+GES uses the [Apache License, Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.html)
 
