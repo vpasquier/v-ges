@@ -1,0 +1,13 @@
+{
+  "name": "google-engine-switch",
+  "private": true,
+  "version": "0.0.1",
+  "dependencies": {
+    "jquery": "^2.2.1",
+    "jquery-confirm": "~2.6.0"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
