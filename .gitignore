@@ -1,4 +1,5 @@
 *~
+package-lock.json
 *_
 *~bak
 *-bak
@@ -29,4 +30,5 @@ dependency-tree.log
 target
 bower_components
 node_modules
-
+dist
+package
