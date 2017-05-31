@@ -1,0 +1,10 @@
+{
+  "appName": {
+    "message": "Google Engine Switch",
+    "description": "The description of the application"
+  },
+  "appDescription": {
+    "message": "The ultimate switch for search engines",
+    "description": "The description of the application"
+  }
+}

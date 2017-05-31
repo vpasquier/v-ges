@@ -1,0 +1,43 @@
+{
+	"manifest_version": 2,
+	"name": "Google Engine Switch",
+	"version": "1.0.0",
+	"description": "",
+	"icons": {
+		"48": "images/v-48.png",
+		"96": "images/v-96.png"
+	},
+	"default_locale": "en",
+	"applications": {
+		"gecko": {
+			"id": "TODO",
+			"strict_min_version": "45.0"
+		}
+	},
+	"background": {
+		"scripts": [
+			"../../../app/vendor/firefox/ff-bkg.js"
+		]
+	},
+	"browser_action": {
+		"default_icon": {
+			"16": "images/v-16.png",
+			"19": "images/v-19.png",
+			"32": "images/v-32.png",
+			"38": "images/v-38.png"
+		},
+		"default_title": "Google Engine Switch",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"tabs",
+		"http://*/*",
+		"https://*/*",
+		"activeTab",
+		"https://ajax.googleapis.com/",
+		"notifications",
+		"webRequest",
+		"<all_urls>",
+		"cookies"
+	]
+}
