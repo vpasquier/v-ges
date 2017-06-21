@@ -15,3 +15,16 @@ limitations under the License.
 */
 
 'use strict';
+
+window.onload = function() {
+    document.getElementById('myBtn').addEventListener('click', setBarSearch);
+};
+
+function setBarSearch() {
+    chrome.tabs.update({'url': 'http://chromium.org'}, function (tab) {
+        chrome.tabs.executeScript({
+            code: 'history.replaceState({}, "", " ");'
+        });
+    });
+}
+
