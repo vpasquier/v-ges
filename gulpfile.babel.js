@@ -5,7 +5,6 @@ import del from 'del';
 import runSequence from 'run-sequence';
 import {stream as wiredep} from 'wiredep';
 import es from 'event-stream';
-import concat from 'gulp-concat';
 import path from 'path';
 import util from 'gulp-util';
 import moment from 'moment';
