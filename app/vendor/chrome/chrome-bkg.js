@@ -1,10 +1,16 @@
-// Shortcuts
+// Shortcut: Cmd + I
 chrome.commands.onCommand.addListener(function (command) {
-    chrome.tabs.update({'url': 'http://chromium.org' + command}, function (tab) {
+    chrome.tabs.query({
+        active: true,
+        currentWindow: true
+    }, function (tabs) {
+        var tab = tabs[0];
+        console.log(tab);
+        chrome.windows.create({'url': tab.url, 'incognito': true});
     });
 });
 
-// Omnibox
+// Omnibox - Type 'l'+space for entering search in DuckDuckGo
 chrome.omnibox.onInputChanged.addListener(function (text, suggest) {
     text = text.replace(' ', '');
     var suggestions = [];
