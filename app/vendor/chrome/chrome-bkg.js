@@ -10,7 +10,7 @@ chrome.commands.onCommand.addListener(function (command) {
     });
 });
 
-// Omnibox - Type 'l'+space for entering search in DuckDuckGo
+// Omnibox - Type ('l' + space) for entering search in DuckDuckGo or else
 chrome.omnibox.onInputChanged.addListener(function (text, suggest) {
     text = text.replace(' ', '');
     var suggestions = [];
