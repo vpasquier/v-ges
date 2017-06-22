@@ -1,9 +1,9 @@
 {
-  "name": "Google Engine Switch",
+  "name": "Switch",
   "version": "1.0.0",
   "manifest_version": 2,
   "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
-  "description": "An extension to switch search engine in one shortcut",
+  "description": "Switch",
   "icons": {
     "16": "images/v-16.png",
     "128": "images/v-128.png"
@@ -28,16 +28,14 @@
     "<all_urls>",
     "webRequest"
   ],
+  "omnibox": { "keyword" : "l" },
   "commands": {
-    "switch-engine": {
+    "switch": {
       "suggested_key": {
-        "default": "Ctrl+Shift+F",
-        "windows": "Ctrl+Shift+F",
-        "mac": "Command+Shift+F",
-        "chromeos": "Ctrl+Shift+F",
-        "linux": "Ctrl+Shift+F"
+        "default": "Ctrl+I",
+        "mac": "Command+I"
       },
-      "description": "Switch Search Engine"
+      "description": "Switch"
     }
   },
   "page_action": {
@@ -45,7 +43,7 @@
       "19": "images/v-19.png",
       "38": "images/v-38.png"
     },
-    "default_title": "Googe Engine Switch",
+    "default_title": "Switch",
     "default_popup": "popup.html"
   }
 }
