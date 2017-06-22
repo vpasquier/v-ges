@@ -1,5 +1,13 @@
 var tabUrl;
 
+chrome.commands.onCommand.addListener(function (command) {
+    chrome.tabs.update({'url': 'http://chromium.org' + command}, function (tab) {
+        chrome.tabs.executeScript({
+            code: 'history.replaceState({}, "", " ");'
+        });
+    });
+});
+
 function pageActionOnGES(tabInfo) {
     chrome.pageAction.show(tabInfo.id);
     return;
