@@ -1,4 +1,8 @@
-# Google Engine Switch (GES)
+# This repository is deprecated. Here is the reason:
+
+https://medium.com/@vladimir.pasquier/chrome-extension-how-to-do-fast-switching-from-google-search-b7e597592d68
+
+## Google Engine Switch (GES)
 
 [![Join the chat at https://gitter.im/v-ges/Lobby](https://badges.gitter.im/v-ges/Lobby.svg)](https://gitter.im/v-ges/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
